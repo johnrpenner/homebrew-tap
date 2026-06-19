@@ -1,12 +1,12 @@
 class Pscript < Formula
   desc "pScript — a BASIC interpreter for the command line, written in Swift"
   homepage "https://github.com/johnrpenner/parseEval"
-  version "0.9.59"
+  version "0.9.60"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/johnrpenner/parseEval/releases/download/v0.9.59/pscript"
-      sha256 "3f91a9f9f77cde3f952a7e150659aa560fc60913cb8c0b192c96fc6c248acb89"
+      url "https://github.com/johnrpenner/parseEval/releases/download/v0.9.60/pscript"
+      sha256 "sha256:1e0f44b23db02b8adf7fb42962deda125239fddc57994d370e549e837d73191b"
 
       def install
         bin.install "pscript"
