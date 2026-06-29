@@ -6,7 +6,7 @@ class Pscript < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/johnrpenner/parseEval/releases/download/v0.9.60/pscript"
-      sha256 "sha256:1e0f44b23db02b8adf7fb42962deda125239fddc57994d370e549e837d73191b"
+      sha256 "1e0f44b23db02b8adf7fb42962deda125239fddc57994d370e549e837d73191b"
 
       def install
         bin.install "pscript"
